@@ -1,5 +1,6 @@
 # 共通設定
 site_name: MkDocs Sample Page
+use_directory_urls: false
 
 # テーマ設定 (Material for MkDocs)
 theme:
