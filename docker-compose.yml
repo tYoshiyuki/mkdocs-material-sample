@@ -1,0 +1,26 @@
+version: '3.7'
+services:
+  # MkDocs
+  mkdocs-material:
+    build: .
+    container_name: mkdocs-material
+    restart: always
+    depends_on:
+      - plantuml-server    
+    volumes:
+      - .:/docs
+    ports:
+      - "8000:8000"
+    networks:
+      - mkdocs
+  # PlantUML
+  plantuml-server:
+    image: plantuml/plantuml-server
+    restart: always
+    ports:
+      - "8080:8080"
+    networks:
+      - mkdocs
+
+networks:
+  mkdocs:
