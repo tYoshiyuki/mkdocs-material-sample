@@ -28,7 +28,7 @@ Material for MkDocs と PlantUML をローカルで構築する docker-compose �
 - スタイルシートは、docs/stylesheets/extra.css で設定してください。
 
 ## Demo
-- https://tyoshiyuki.github.io/mkdocs-material-sample/index.html
+- https://tyoshiyuki.github.io/mkdocs-material-sample/
 
 ## Memo
 - MkDocs Configuration
