@@ -27,6 +27,9 @@ Material for MkDocs と PlantUML をローカルで構築する docker-compose �
 - docsフォルダ以下に、ドキュメントファイルを配置してください。
 - スタイルシートは、docs/stylesheets/extra.css で設定してください。
 
+## Demo
+- https://tyoshiyuki.github.io/mkdocs-material-sample/index.html
+
 ## Memo
 - MkDocs Configuration
 	- https://mkdocs.readthedocs.io/en/0.10/user-guide/configuration/
@@ -34,3 +37,4 @@ Material for MkDocs と PlantUML をローカルで構築する docker-compose �
 	- https://python-markdown.github.io/extensions/
 - PyMdown Extensions
 	- https://facelessuser.github.io/pymdown-extensions/
+
